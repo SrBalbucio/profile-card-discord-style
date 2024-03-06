@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --fundo: #24263a;
+    --fundoDark: #1c1e2b;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Montserrat", Arial;
+}
+
+.main-container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.call-discord-container{
+    position: absolute;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background-color: var(--fundo);
+    border-radius: 15px;
+    height: 500px;
+}
+
+.banner{
+    background-image: url("../img/hyperpowered.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    width: 480px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.card-info{
+    color: #fff;
+    padding: 50px;
+    margin-top: 20px;
+}
+
+h2{
+    font-size: 15px;
+}
+
+.avatar{
+    border-radius: 100%;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    border: 3px solid var(--fundo);
+}
+
+.skills img{
+    height: 40px;
+    margin: 5px
+}
+
+.badge{
+    position: absolute;
+    left: 80%;
+    transform: translate(-25%, 20%);
+    border: 3px solid var(--fundo);
+}
+
+.badge img{
+    width: 23px;
+    height: 23px;
+}
+
+.navbar{
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
